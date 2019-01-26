@@ -4,17 +4,34 @@
   "description": "Pure css spinner for react app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js ",
+    "lint:fix": "prettier-eslint **/*.js --write"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ebrah/react-pure-spinners.git"
   },
-  "keywords": ["react", "css-spinners", "spinners", "spinners"],
+  "keywords": [
+    "react",
+    "css-spinners",
+    "spinners",
+    "spinners"
+  ],
   "author": "Ebrah Jame",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ebrah/react-pure-spinners/issues"
   },
-  "homepage": "https://github.com/ebrah/react-pure-spinners#readme"
+  "homepage": "https://github.com/ebrah/react-pure-spinners#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1"
+  }
 }
