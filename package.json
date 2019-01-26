@@ -1,0 +1,20 @@
+{
+  "name": "react-pure-spinners",
+  "version": "1.0.0",
+  "description": "Pure css spinner for react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebrah/react-pure-spinners.git"
+  },
+  "keywords": ["react", "css-spinners", "spinners", "spinners"],
+  "author": "Ebrah Jame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ebrah/react-pure-spinners/issues"
+  },
+  "homepage": "https://github.com/ebrah/react-pure-spinners#readme"
+}
